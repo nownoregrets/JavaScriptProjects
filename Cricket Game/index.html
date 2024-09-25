@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cricket Game</title>
+</head>
+
+<body>
+
+    <!-- Start Screen -->
+    <div id="start" class="load-screens">
+        <button id="play-button"> &#9654;</button>
+        <div class="platform"></div>
+        <!-- Images -->
+        <img src="/Game Assets/Images/Bats/Bat Dark Yellow.png" alt="Bat" class="img-1">
+        <img src="/Game Assets/Images/Bats/Bat Gray.png" alt="Bat" class="img-2">
+    </div>
+
+    <!-- Load Screen -->
+    <div id="load" class="load-screens">
+        <div id="level-box">
+            <div class="level-card">
+                <div id="img-box-normal"></div>
+                <div id="title-box-normal">Normal Mode</div>
+            </div>
+            <div class="level-card">
+                <div id="img-box-cheat">Coming Soon</div>
+                <div id="title-box-normal">Cheat Mode</div>
+            </div>
+        </div>
+        <div class="platform"></div>
+        <!-- Images -->
+        <img src="/Game Assets/Images/Bats/Bat Dark Yellow.png" alt="Bat" class="img-1">
+        <img src="/Game Assets/Images/Bats/Bat Gray.png" alt="Bat" class="img-2">
+    </div>
+    <!-- Main Screen -->
+    <div id="main-screen">
+        <div id="score-side-bar">
+            <div id="out-bar">
+                <div class="out-blocks"></div>
+                <div class="out-blocks"></div>
+                <div class="out-blocks"></div>
+            </div>
+            <div id="score-down-bar"></div>
+        </div>
+        <div id="up-score-bar">
+            <div class="up-score-blocks">HI-Score: Coming Soon</div>
+            <div class="up-score-blocks">Score: Coming Soon</div>
+        </div>
+        <div id="bat"></div>
+        <div id="ball"></div>
+        <div class="platform"></div>
+        <div id="score-display"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

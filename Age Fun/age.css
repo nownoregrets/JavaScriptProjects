@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+} /*All Margin,Padding  */
+
+/* body{
+
+    /* background: #FF8811; 
+} */
+#partantbox {
+    border-radius: 5vw;
+    margin: 5vw 27vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FF8811;
+    height: 30vw;
+    width: 50vw;
+} /* Main Oragne Box*/
+
+.margin-top {
+    margin-top: 3vh;
+} /*Class Margin Top*/
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1B2845;
+    width: 40vw;
+    height: 15vh;
+    border-radius: 2vw;
+} /*Blue Box For Input*/
+
+.input {
+    border: 2px solid #FF8811;
+    border-radius: 2vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+} /*Class For Inputs*/
+
+.input::placeholder {
+    text-align: center;
+    font-weight: lighter;
+} /* Class For Input's Placeholder*/
+
+#equal {
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+} /*Equal Box*/
+
+#text {
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} /*Text Box*/
+
+#cal {
+    cursor: pointer;
+    position: absolute;
+    bottom: 38vh;
+} /*Answer's Box*/
+
+#ans {
+    font-size: 1.5vw;
+    color: white;
+} /*Text Answer*/
+
+.clr-white {
+    color: white;
+} /*Class For Text Color White*/

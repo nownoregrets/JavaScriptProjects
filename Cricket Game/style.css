@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+.load-screens {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("/Game Assets/Images/Background/Cricket Background.jpg");
+}
+
+.img-1 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: rotate(-14.5deg);
+    width: 5vw;
+}
+
+.img-2 {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: rotate(14.5deg);
+    width: 5vw;
+}
+
+#play-button {
+    width: 10vw;
+    height: 13vh;
+    font-size: 4em;
+    border: 0.3vw solid white;
+    border: none;
+    color: white;
+    /* background: none; */
+    background-color: blue;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+/*Load Screen*/
+
+#load {
+    display: none;
+}
+
+#level-box {
+    width: 25vw;
+    height: 45vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.level-card {
+    width: 80%;
+    height: 40%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+#img-box-normal {
+    width: 100%;
+    height: 75%;
+    background-image: url("/Game Assets/Images/Background/Cricket Game Normal Mode Thumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 0.5vw;
+}
+
+#img-box-cheat {
+    width: 100%;
+    height: 75%;
+    background-image: url("/Game Assets/Images/Background/Cricket Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#title-box-normal {
+    font-size: 1.5em;
+}
+
+#title-box-cheat {
+    font-size: 1.5em;
+}
+
+#main-screen {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Game Assets/Images/Background/Cricket\ Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    display: none;
+}
+
+#score-side-bar {
+    width: 1vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+#out-bar {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(202, 202, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.out-blocks {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+#score-down-bar {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(green, yellow, red);
+}
+
+#up-score-bar {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 7vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.up-score-blocks {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+#bat {
+    top: 62%;
+    width: 14vw;
+    height: 35vh;
+    /* background-color: black; */
+    position: absolute;
+    left: 83%;
+    background-image: url("/Game Assets/Images/Bats/Bat Blue.png");
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#ball {
+    width: 4vw;
+    height: 9vh;
+    /* background-color: green; */
+    position: absolute;
+    top: 66%;
+    left: -8%;
+    background-image: url("/Game Assets/Images/Balls/Ball.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    z-index: 10;
+}
+
+.platform {
+    width: 100%;
+    height: 17vh;
+    background: linear-gradient(rgb(3, 75, 3), rgb(3, 150, 3));
+    position: absolute;
+    bottom: 0%;
+}
+
+#score-display {
+    width: 20%;
+    height: 20%;
+    /* background-color: red; */
+    position: absolute;
+    top: 19%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5em;
+    display: none;
+}

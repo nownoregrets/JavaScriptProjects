@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Main Body Box Style*/
+
+#box {
+    width: 100vw;
+    height: 100vh;
+    /*Default Image*/
+    background-image: url("Food Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

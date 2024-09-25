@@ -1,0 +1,7 @@
+Basic:
+      Basic Code.
+Features: 
+          Open Animation,
+                          Sounds,
+          Close Animation,
+                          Sounds.

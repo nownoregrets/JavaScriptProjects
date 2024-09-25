@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio Player</title>
+    <!-- Icon's Sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="mainBox">
+        <h1 id="topHeading">Audio Player</h1>
+        <div id="slideBox">
+            <input type="range" min="0" value="0" step="1" id="trackSlider">
+        </div>
+        <div id="buttonsBox">
+            <button id="backwardButton" class="buttonStyle fontSize">
+                Backward
+            </button>
+            <button id="playButton" class="buttonStyle">
+                Play
+            </button>
+            <button id="forwardButton" class="buttonStyle fontSize">
+                Forwad
+            </button>
+        </div>
+        <div id="downButtonsBox">
+            <button id="stopButton" class="buttonStyle fontSize">
+                Stop
+            </button>
+            <div id="soundBox">
+                <button class="buttonStyle fontSize" id="muteButton">
+                    Mute
+                </button>
+                <input type="range" min="0" step="0.1" value="0" max="1" id="volumeSlider">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

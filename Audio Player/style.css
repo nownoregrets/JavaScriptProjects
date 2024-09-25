@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainBox {
+    position: relative;
+    background-color: #09051E;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topHeading {
+    color: #fff;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#trackSlider {
+    width: 98vw;
+}
+
+.buttonStyle {
+    width: 10vw;
+    height: 9vh;
+    font-size: 2vw;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #24262F;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyle:hover {
+    background-color: #fff;
+    color: #09051E;
+}
+
+.fontSize {
+    font-size: 2vw;
+}
+
+#buttonsBox {
+    width: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pauseButton {
+    position: absolute;
+}
+
+#downButtonsBox {
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#soundBox {
+    position: relative;
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#volumeMuteButton {
+    position: absolute;
+    right: 12.67vw;
+}
+
+#volumeSlider {
+    width: 8vw;
+}

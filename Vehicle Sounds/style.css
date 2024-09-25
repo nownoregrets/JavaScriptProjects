@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* box */
+
+#box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    background-image: url("/Vehicles Sound.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#box h1 {
+    top: 30%;
+    left: 66%;
+    font-size: 5em;
+}
+
+#box h2 {
+    top: 41%;
+    left: 67.5%;
+    font-size: 4em;
+}
+
+#box h3 {
+    top: 51%;
+    left: 65%;
+    font-size: 2.5em
+}
+
+#box a {
+    top: 58.5%;
+    left: 68%;
+}
+
+
+/* keys */
+
+.key-body {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#t-key {
+    position: absolute;
+    top: 93.5%;
+    left: 22%;
+}
+
+#a-key {
+    position: absolute;
+    top: 11.5%;
+    left: 21%;
+}
+
+#b-key {
+    position: absolute;
+    top: 48.7%;
+    left: 10%;
+}
+
+#h-key {
+    position: absolute;
+    top: 15.5%;
+    left: 5.3%;
+}
+
+#s-key {
+    position: absolute;
+    top: 79.5%;
+    left: 7.3%;
+}
+
+#c-key {
+    position: absolute;
+    top: 71.5%;
+    left: 25.8%;
+}
+
+#f-key {
+    position: absolute;
+    top: 71.5%;
+    left: 25.8%;
+}
+
+#u-key {
+    position: absolute;
+    top: 33.5%;
+    left: 16.8%;
+}
+
+#v-key {
+    position: absolute;
+    top: 12.5%;
+    left: 40%;
+}
+
+#o-key {
+    position: absolute;
+    top: 78.5%;
+    left: 40.8%;
+}
+
+#k-key {
+    position: absolute;
+    top: 37.5%;
+    left: 38.8%;
+}
+
+.p-a {
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+//Result  = Good Morning, Good Afternoon, Good Evening, Good Night;
+Setp 1: 
+          Configure Time In Hours, 05 AM To 12 PM = Good Morning,
+                                   12 PM To 05 PM = Good Afternoon,
+                                   05 PM To I Think 08 PM = Good Evening,
+                                   08 PM To 05 AM = Good Night;
+Step 2:     
+          Get Hours In JavaScript Using Variable.getHours();
+Step 3:   
+          If-Else or Switch Statement We Can Use //Both are Good 
+Step 4:   
+          Condition(Variable < 5){
+          htmlBox.innerHTML = "Good Morning"
+          audio.play()
+}
+       Condition(Variable < 12){
+          htmlBox.innerHTML = "Good Afternoon"
+           audio.play()
+}
+       Condition(Variable < 17){
+          htmlBox.innerHTML = "Good Evening"
+         audio.play()
+}
+   Condition(Variable < 20{
+          htmlBox.innerHTML = "Good Night"
+         audio.play()
+}

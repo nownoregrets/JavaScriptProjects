@@ -1,0 +1,40 @@
+<!DOCTYPE html><!--HTML 5-->
+<head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="age.css"> <!--CSS-->
+    <title>Age</title>
+</head>
+
+<body>
+    <audio src="Answer Sound.mp3" id="anssound"></audio>      <!--Answer Sound-->
+    <audio src="Clear Sound.mp3" id="clrsound"></audio>       <!--Clear Sound-->  
+    <audio src="Error Sound.mp3" id="errsound"></audio>       <!--Error Sound-->
+    <audio src="Key Type Sound.wav" id="ktsound"></audio>     <!--Input Sound-->
+    <audio src="Security Alarm.mp3" id="sasound"></audio>     <!--"Age Sound"-->
+    <audio src="Glass Break.mp3" id="gbsound"></audio>        <!--"Who Sound"-->
+    <audio src="Laugh Sound.mp3" id="lsound"></audio>         <!--"Find Your Postion" Sound-->
+    <div id="partantbox"> <!--Main Oragne Box-->
+        <div id="text"> <!--Text Box-->
+            <h1 class="margin-top clr-white cur-poin" id="fire">Age</h1>
+            <h2 class="margin-top clr-white cur-poin" id="who">Who Are You</h2>
+            <h3 class="margin-top clr-white cur-poin" id="find">Find Current Position</h3>
+        </div> <!--Text Box End-->
+        <div id="box" class="margin-top"> <!--Input Box-->
+            <input type="text" id="put" class="input" placeholder="Your Age... ">
+            <span id="equal">=</span> <!--Equal Button-->
+            <input type="text" id="result" class="input" placeholder="Your Are...">
+            <span id="cal" class="jsc"> <!--Answer Box-->
+                <p id="ans" class="jsc"> Answer</p> 
+            </span> <!--Answer Box End-->
+        </div> <!--Input Box End-->
+    </div> <!--Main Oragne Box End-->
+
+</body>
+<script src="age.js"></script> <!--JavaScript-->
+
+</html>

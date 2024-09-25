@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #box {
+            color: white;
+            font-size: 7em;
+        }
+
+        #btn-box {
+            width: 40%;
+            height: 10%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .btn {
+            background: none;
+            padding: 2% 8%;
+            border-radius: .5vw;
+            border: white solid .2vw;
+            color: white;
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+            transition: linear .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="box">0</div>
+        <div id="btn-box">
+            <button class="btn">Count</button>
+            <button class="btn">Reset</button>
+        </div>
+    </main>
+</body>
+<script>
+    let box = document.getElementById("box")
+    let btn = document.querySelectorAll(".btn")
+    var count = 0;
+
+    btn[0].addEventListener("click", function () {
+        count = count + 1;
+        box.innerHTML = count;
+    })
+
+    btn[1].addEventListener("click", function () {
+        count = 88888888
+        box.innerHTML = count
+        setTimeout(() => {
+            count = 0;
+            box.innerHTML = count
+        }, 300);
+    })
+</script>
+
+</html>

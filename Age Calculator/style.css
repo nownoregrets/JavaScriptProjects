@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#par {
+    background-color: thistle;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} /*Main Box*/
+
+.mar-top {
+    margin-top: 10px;
+} /*Margin Top Class*/
+
+#box {
+    background-color: #292F36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+} /*Input Box*/
+
+.text-algin-centre {
+    text-align: center;
+} /*Text Algin Centre Class*/
+
+.height {
+    height: 25px;
+} /*Height Class*/
+
+.width {
+    width: 280px;
+} /*Width Class*/
+
+#age {
+    height: 30px;
+} /*Main Input Box*/
+
+#text {
+    color: #F7FFF6;
+}
+
+.clrwhite {
+    color: #F7FFF6;
+} /*Text Color White*/
+
+.input-text-centre::placeholder {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+} /*Input Box Text Align Centre::placeholder*/
+
+#text-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #878472;
+    width: 300px;
+    height: 80px;
+    flex-direction: column;
+} /*Text Box*/
+
+.border {
+    border: 2px solid #878472;
+    border-radius: 10px;
+} /*Border Class */
+
+#clear-bt {
+    cursor: pointer;
+} /*Clear Button*/
+
+#ans-bt {
+    cursor: pointer;
+    color: #F58F29;
+} /*Answer Button*/

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Silkscreen&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Silkscreen&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+}
+
+#mainBox {
+    background-color: black;
+    color: green;
+    width: 100vw;
+    height: 93.5vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    /* background-color: rgb(173, 46, 46); */
+    color: green;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    border: 0.2vw solid white;
+    border-radius: 3vw;
+    background-color: rgba(75, 75, 75, 0.63);
+
+}
+
+#Hours-Minutes-Box {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 5vw;
+    /* border: 0.2vw solid white;
+    border-radius: 1vw; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#Seconds-Sections-Box {
+    margin-top: 2.7vh;
+    /* background-color: aqua; */
+    height: 8vh;
+    /* width: 45vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: space-between; */
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 0.2vw solid white;
+    border-radius: 1vw; */
+    /* font-family: 'Orbitron', sans-serif; */
+}
+
+#clockHeading {
+    text-align: center;
+    color: white;
+    height: 6.5vh;
+    /* position: absolute;
+    right: 50vw; */
+    font-family: 'Orbitron', sans-serif;
+}
+
+#Date-Month-Year {
+    position: absolute;
+    top: 42vh;
+
+}
+
+.size {
+    font-size: 1.7vw;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#Day {
+    position: absolute;
+    bottom: 34.3vh;
+}
+/* #section{
+    display: none;
+} */

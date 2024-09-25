@@ -1,0 +1,123 @@
+/*CSS Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Style*/
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/*Gun Box Style*/
+
+.gun-box {
+    position: relative;
+    width: 45vw;
+    height: 85vh;
+    left: 50%;
+    z-index: 3;
+    /* background-color: red; */
+}
+
+/*Gun Style*/
+
+.gun-body {
+    background-image: url("/Images/Gun Body.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    /* background-color: green; */
+    position: absolute;
+    top: 19.9%;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.gun-head {
+    background-image: url("/Images/Gun Head.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    /* background-color: green; */
+    position: absolute;
+    top: 19.9%;
+    cursor: pointer;
+    z-index: 5;
+    /* display: none; */
+}
+
+.gun-barrel {
+    background-image: url("/Images/Gun Barrel.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    position: absolute;
+    top: 19.9%;
+}
+
+.gun-trigger {
+    background-image: url("/Images/Gun\ Trigger.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+    /* background-color: green; */
+    position: absolute;
+    top: 19.9%;
+    /* display: none; */
+}
+
+/*Target Style*/
+
+.target-block {
+    position: relative;
+    width: 1vw;
+    height: 100vh;
+    left: 0%;
+    top: -200.5%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.target-box {
+    position: relative;
+    top: -288%;
+    left: 5%;
+    width: 23vw;
+    height: 50vh;
+    background-color: green;
+    font-size: 2em;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("/Images/Target Box.jpg"); */
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/*Video Style*/
+
+.video {
+    /* display: none; */
+    position: relative;
+    /* top: -200%; */
+    top: -109%;
+    left: 23%;
+}

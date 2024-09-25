@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Main Body*/
+#mainBox {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#mainBody {
+    /* position: relative; */
+    width: 50vw;
+    height: 100vh;
+    background-color: #0A2463;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topHeading {
+    font-size: 3vw;
+    font-family: 'Unbounded', cursive;
+    color: #EAEAEA;
+
+}
+
+/*Input*/
+#input {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 2vw;
+    background-color: #EAEAEA;
+}
+
+#input::placeholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Unbounded', cursive;
+
+}
+
+/*Buttons*/
+.actionButtons {
+    border: none;
+    border-radius: 0.5vw;
+    width: 9vw;
+    height: 5vh;
+    background-color: #EAEAEA;
+    font-size: 1.2vw;
+    font-family: 'Unbounded', cursive;
+    cursor: pointer;
+
+}
+
+.actionButtons:hover {
+    background-color: #050404;
+    color: #EAEAEA;
+}
+
+/*Input & Button Boxes*/
+#inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+}
+
+#buttonsBox {
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Content Box*/
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFBF00;
+    width: 30vw;
+    height: 0vh;
+    /*70vh*/
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    color: #0E1116;
+    border-radius: 0.8vw;
+}
+
+#hideBox {
+    width: 30vw;
+    height: 70vh;
+    background-color: #0A2463;
+}
+
+/*Responsive*/
+@media screen and (max-width:1450px) {
+    #mainBody {
+        background-color: red;
+        height: 80vh;
+        border-radius: 2vw;
+    }
+
+    #input {
+        /* width: 25vw; */
+        font-size: 1.8vw;
+    }
+
+    #input::placeholder {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    #mainBody {
+        background-color: blue;
+        height: 60vh;
+        border-radius: 2vw;
+    }
+
+    #input {
+        /* width: 25vw; */
+        height: 4vh;
+        font-size: 1.5vw;
+    }
+
+    #input::placeholder {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #mainBody {
+        background-color: green;
+    }
+
+    .actionButtons {
+        height: 4vh;
+        font-size: 1.3vw;
+    }
+
+    #inputBox {
+        height: 12vh;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #mainBody {
+        background-color: blue;
+        height: 40vh;
+        border-radius: 2vw;
+    }
+
+    #input {
+        width: 20vw;
+        height: 3vh;
+        font-size: 1.7vw;
+    }
+
+    #input::placeholder {
+        font-size: 1.7vw;
+    }
+
+    .actionButtons {
+        height: 3vh;
+        font-size: 1.2vw;
+    }
+
+    #inputBox {
+        height: 9vh;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #mainBody {
+        background-color: green;
+        height: 30vh;
+        border-radius: 2vw;
+    }
+
+    #input {
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+    }
+
+    #input::placeholder {
+        font-size: 2vw;
+    }
+
+    .actionButtons {
+        height: 3vh;
+        font-size: 1.5vw;
+    }
+
+    #inputBox {
+        height: 9vh;
+    }
+}
+
+@media screen and (max-width:520px) {
+    #mainBody {
+        background-color: blue;
+        height: 20vh;
+        border-radius: 2vw;
+    }
+
+    #input {
+        width: 20vw;
+        height: 2vh;
+        font-size: 2vw;
+    }
+
+    #input::placeholder {
+        font-size: 2vw;
+    }
+
+    .actionButtons {
+        height: 2vh;
+        font-size: 1.3vw;
+    }
+
+    #inputBox {
+        height: 6vh;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #mainBody {
+        background-color: blue;
+        height: 30vh;
+        width: 70vw;
+        border-radius: 1.5vw;
+    }
+
+    #input {
+        width: 40vw;
+        height: 3vh;
+        font-size: 4.3vw;
+    }
+
+    #input::placeholder {
+        font-size: 4.3vw;
+    }
+
+    .actionButtons {
+        height: 4vh;
+        width: 15vw;
+        font-size: 2.3vw;
+    }
+
+    #buttonsBox {
+        width: 40vw;
+    }
+
+    #inputBox {
+        width: 70vw;
+        height: 12vh;
+    }
+
+    #topHeading {
+        font-size: 5vw;
+    }
+}
